@@ -1,4 +1,4 @@
-#reCaptchaiOS
+# reCaptchaiOS
 
 Easily integrate reCaptcha into an iOS app.
 
