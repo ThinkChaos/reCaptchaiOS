@@ -113,6 +113,7 @@
 				TargetAttributes = {
 					76B3CA2A1D74AE3700D20A7C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 526YR6WHWC;
 					};
 				};
 			};
@@ -273,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526YR6WHWC;
 				INFOPLIST_FILE = reCaptcha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinkchaos.reCaptcha;
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526YR6WHWC;
 				INFOPLIST_FILE = reCaptcha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinkchaos.reCaptcha;

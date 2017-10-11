@@ -48,7 +48,7 @@
                             configuration:wkConf];
 
     wk.backgroundColor = [UIColor clearColor];
-    wk.opaque = NO;
+  wk.opaque = NO;
 }
 
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
@@ -72,7 +72,7 @@
 }
 
 - (void)captchaDidExpire {
-    NSLog(@"Captcha Expired");
+    NSLog(@"Captcha expired");
 }
 
 @end
