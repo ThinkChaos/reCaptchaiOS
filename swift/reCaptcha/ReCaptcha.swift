@@ -135,7 +135,7 @@ extension ReCaptcha: WKScriptMessageHandler {
     }
     
     @objc func captchaDidExpire() {
-        print("ReCaptcha Expired")
+        print("ReCaptcha expired")
         
         guard let wk = self.wk else {
             return
