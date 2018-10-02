@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14A9FDC51F8E56CD009E89AB /* Build configuration list for PBXProject "reCaptcha" */;
+			buildConfigurationList = 14A9FDC51F8E56CD009E89AB /* Build configuration list for PBXProject "Swift" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14A9FDC51F8E56CD009E89AB /* Build configuration list for PBXProject "reCaptcha" */ = {
+		14A9FDC51F8E56CD009E89AB /* Build configuration list for PBXProject "Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A9FDDA1F8E56CD009E89AB /* Debug */,
