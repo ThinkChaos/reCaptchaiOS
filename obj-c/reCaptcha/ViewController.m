@@ -26,7 +26,7 @@
 }
 
 - (WKUserScript*)readScript {
-    NSString *scriptSrc = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"script" ofType:@"js"]
+    NSString *scriptSrc = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"reCaptcha" ofType:@"js"]
                                                     encoding:NSUTF8StringEncoding
                                                        error:nil];
 

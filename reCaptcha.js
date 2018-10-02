@@ -1,5 +1,5 @@
 (function() {
-    var RECAPTCHA_SITE_KEY = 'your_site_key';
+    var RECAPTCHA_SITE_KEY = 'reCaptcha key for your site';
     var RECAPTCHA_THEME = 'dark';
 
     var PAGE_BG_COLOR = '#222';
@@ -36,6 +36,7 @@
 
     function showCaptcha(el) {
         try {
+            // For config see: https://developers.google.com/recaptcha/docs/display#config
             grecaptcha.render(el, {
                 'sitekey': RECAPTCHA_SITE_KEY,
                 'theme': RECAPTCHA_THEME,
@@ -58,4 +59,4 @@
     }
 
     waitReady();
- })();
+})();

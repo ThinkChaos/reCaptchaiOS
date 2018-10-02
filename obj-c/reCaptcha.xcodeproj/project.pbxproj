@@ -13,7 +13,7 @@
 		76B3CA391D74AE3700D20A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B3CA371D74AE3700D20A7C /* Main.storyboard */; };
 		76B3CA3B1D74AE3700D20A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B3CA3A1D74AE3700D20A7C /* Assets.xcassets */; };
 		76B3CA3E1D74AE3700D20A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B3CA3C1D74AE3700D20A7C /* LaunchScreen.storyboard */; };
-		76B3CA481D74BFEC00D20A7C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 76B3CA471D74BFEC00D20A7C /* script.js */; };
+		76CE12FF21638493005BBB5A /* reCaptcha.js in Resources */ = {isa = PBXBuildFile; fileRef = 76CE12FE21638493005BBB5A /* reCaptcha.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		76B3CA3A1D74AE3700D20A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B3CA3D1D74AE3700D20A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76B3CA3F1D74AE3700D20A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B3CA471D74BFEC00D20A7C /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		76CE12FE21638493005BBB5A /* reCaptcha.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = reCaptcha.js; path = ../../reCaptcha.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				76B3CA321D74AE3700D20A7C /* AppDelegate.m */,
 				76B3CA341D74AE3700D20A7C /* ViewController.h */,
 				76B3CA351D74AE3700D20A7C /* ViewController.m */,
-				76B3CA471D74BFEC00D20A7C /* script.js */,
+				76CE12FE21638493005BBB5A /* reCaptcha.js */,
 				76B3CA371D74AE3700D20A7C /* Main.storyboard */,
 				76B3CA3A1D74AE3700D20A7C /* Assets.xcassets */,
 				76B3CA3C1D74AE3700D20A7C /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B3CA481D74BFEC00D20A7C /* script.js in Resources */,
+				76CE12FF21638493005BBB5A /* reCaptcha.js in Resources */,
 				76B3CA3E1D74AE3700D20A7C /* LaunchScreen.storyboard in Resources */,
 				76B3CA3B1D74AE3700D20A7C /* Assets.xcassets in Resources */,
 				76B3CA391D74AE3700D20A7C /* Main.storyboard in Resources */,
