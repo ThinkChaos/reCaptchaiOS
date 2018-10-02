@@ -10,3 +10,9 @@ The app's ViewController gets notified when:
  1. The captcha is ready to display
  2. The user has solved the captcha
  3. The captcha has expired
+
+## Contributors
+
+Thanks to:
+
+- [GabrielaBezerra](https://github.com/GabrielaBezerra) for [swift/](https://github.com/ThinkChaos/reCaptchaiOS/tree/master/swift)
