@@ -13,7 +13,7 @@
 		14A9FDD31F8E56CD009E89AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9FDD11F8E56CD009E89AB /* Main.storyboard */; };
 		14A9FDD51F8E56CD009E89AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A9FDD41F8E56CD009E89AB /* Assets.xcassets */; };
 		14A9FDD81F8E56CD009E89AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9FDD61F8E56CD009E89AB /* LaunchScreen.storyboard */; };
-		14A9FDE01F8E98BA009E89AB /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 14A9FDDF1F8E98BA009E89AB /* script.js */; };
+		14A9FDE01F8E98BA009E89AB /* reCaptcha.js in Resources */ = {isa = PBXBuildFile; fileRef = 14A9FDDF1F8E98BA009E89AB /* reCaptcha.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		14A9FDD41F8E56CD009E89AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A9FDD71F8E56CD009E89AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A9FDD91F8E56CD009E89AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14A9FDDF1F8E98BA009E89AB /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		14A9FDDF1F8E98BA009E89AB /* reCaptcha.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = reCaptcha.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				149F045E1F9666D400C6E63A /* ReCaptcha.swift */,
 				14A9FDCD1F8E56CD009E89AB /* AppDelegate.swift */,
 				14A9FDCF1F8E56CD009E89AB /* ViewController.swift */,
-				14A9FDDF1F8E98BA009E89AB /* script.js */,
+				14A9FDDF1F8E98BA009E89AB /* reCaptcha.js */,
 				14A9FDD11F8E56CD009E89AB /* Main.storyboard */,
 				14A9FDD41F8E56CD009E89AB /* Assets.xcassets */,
 				14A9FDD61F8E56CD009E89AB /* LaunchScreen.storyboard */,
@@ -97,11 +97,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = gabrielabezerra;
 				TargetAttributes = {
 					14A9FDC91F8E56CD009E89AB = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A9FDD81F8E56CD009E89AB /* LaunchScreen.storyboard in Resources */,
-				14A9FDE01F8E98BA009E89AB /* script.js in Resources */,
+				14A9FDE01F8E98BA009E89AB /* reCaptcha.js in Resources */,
 				14A9FDD51F8E56CD009E89AB /* Assets.xcassets in Resources */,
 				14A9FDD31F8E56CD009E89AB /* Main.storyboard in Resources */,
 			);
@@ -185,6 +186,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -192,6 +194,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -242,6 +245,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -249,6 +253,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -288,7 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielabezerra.reCaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -303,7 +308,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielabezerra.reCaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

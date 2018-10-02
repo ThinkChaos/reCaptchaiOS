@@ -9,19 +9,23 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ReCaptchaDelegate {
   
   @IBOutlet weak var reCaptchaView: ReCaptcha!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    reCaptchaView.setupWebView(url: "https://portal-desenv.ativrotas.com")
+    reCaptchaView.delegate = self
+    reCaptchaView.setupWebView(url:  "your-url.com")
+  }
+  
+  func didSolve(response: String) {
+    print("response: \(response)")
   }
 
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    print(touches.first!.view!.description)
     if let touch = touches.first, touch.view == self.view, reCaptchaView.isActive {
-      reCaptchaView.resetWebView(url: "https://portal-desenv.ativrotas.com")
+      reCaptchaView.resetWebView(url:  "your-url.com")
     }
   }
   
